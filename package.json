@@ -1,0 +1,37 @@
+{
+  "jspm": {
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.1.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.1.1",
+      "aurelia-http-client": "npm:aurelia-http-client@^1.1.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.2.0",
+      "dogfalo/materialize": "github:dogfalo/materialize@^0.98.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "jspm": "^0.16.53"
+  },
+  "overrides": {
+  "github:Dogfalo/materialize@0.98.0": {
+    "main": "js/materialize",
+    "format": "global",
+    "shim": {
+      "js/materialize": {
+        "deps": [
+          "jquery",
+          "../css/materialize.css!"
+        ]
+      }
+    },
+    "dependencies": {
+      "jquery": "jspm:jquery@*",
+      "css": "jspm:css@*"
+    }
+  }
+}
+}

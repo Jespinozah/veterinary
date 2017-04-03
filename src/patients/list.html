@@ -1,0 +1,16 @@
+<template>
+  <div>
+    <p class="flow-text">you have ${patients.length} patients</p>
+  </div>
+  <table class="striped">
+    <tr>
+      <th>Name</th>
+      <th>Specie</th>
+    </tr>
+    <tr repeat.for="patient of patients">
+      <td>${patient.patientName}</td>
+      <td>${patient.specie}</td>
+    </tr>
+  </table>
+  <compose view-model="currentDate"></compose>
+</template>

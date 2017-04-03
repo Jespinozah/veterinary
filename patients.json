@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "patientName": "Judy",
+  "specie": "Avian",
+  "gender": "Female",
+  "color": "Indigo"
+}, {
+  "id": 2,
+  "patientName": "Joan",
+  "specie": "Bovine",
+  "gender": "Female",
+  "color": "Fuscia"
+}, {
+  "id": 3,
+  "patientName": "Bonnie",
+  "specie": "Canine",
+  "gender": "Female",
+  "color": "Green"
+}, {
+  "id": 4,
+  "patientName": "Albert",
+  "specie": "Caprine",
+  "gender": "Male",
+  "color": "Green"
+}, {
+  "id": 5,
+  "patientName": "Jean",
+  "specie": "Equine",
+  "gender": "Female",
+  "color": "Maroon"
+}, {
+  "id": 6,
+  "patientName": "Paul",
+  "specie": "Feline",
+  "gender": "Male",
+  "color": "Green"
+}, {
+  "id": 7,
+  "patientName": "Roger",
+  "specie": "Piscine",
+  "gender": "Male",
+  "color": "Turquoise"
+}, {
+  "id": 8,
+  "patientName": "Earl",
+  "specie": "Porcine",
+  "gender": "Male",
+  "color": "Green"
+}, {
+  "id": 9,
+  "patientName": "Philip",
+  "specie": "Murine",
+  "gender": "Male",
+  "color": "Red"
+}, {
+  "id": 10,
+  "patientName": "Carolyn",
+  "specie": "Camelid",
+  "gender": "Female",
+  "color": "Violet"
+}]
